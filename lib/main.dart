@@ -10,7 +10,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomeView(),
+      home: NFCVCardShare(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
